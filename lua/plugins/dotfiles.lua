@@ -61,6 +61,7 @@ return {
           "--glob=!**/.git/**",
           "--glob=!**/node_modules/**",
           "--glob=!**/dist/**",
+          "--glob=!**/coverage/**",
         },
       },
       pickers = {
@@ -73,6 +74,7 @@ return {
             "--glob=!**/.git/**",
             "--glob=!**/node_modules/**",
             "--glob=!**/dist/**",
+            "--glob=!**/coverage/**",
           },
         },
       },
